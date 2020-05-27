@@ -1,0 +1,32 @@
+set timeout=3
+set default=1
+
+menuentry "goose (800x600)" {
+    multiboot2 /boot/kernel.bin
+    set gfxpayload=800x600
+    boot
+}
+
+menuentry "goose (1024x768)" {
+    multiboot2 /boot/kernel.bin
+    set gfxpayload=1024x768
+    boot
+}
+
+menuentry "goose (1280x1024)" {
+    multiboot2 /boot/kernel.bin
+    set gfxpayload=1280x1024
+    boot
+}
+
+menuentry "goose (2560x1600)" {
+    multiboot2 /boot/kernel.bin
+    set gfxpayload=2560x1600x16
+    boot
+}
+
+menuentry "goose (text-mode)" {
+    multiboot2 /boot/kernel.bin
+    set gfxpayload=text
+    boot
+}

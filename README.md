@@ -36,6 +36,16 @@ sudo apt-get install golang-1.8
 sudo ln /usr/lib/go-1.8/bin/go /usr/bin/go1.8
 `
 
+#### step 6: Install qemu
+
+`
+sudo wget https://download.qemu.org/qemu-5.0.0.tar.xz
+sudo tar xvJf qemu-5.0.0.tar.xz
+sudo cd qemu-5.0.0
+sudo ./configure
+sudo make
+`
+
 ### Buld the project
 
 `

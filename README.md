@@ -36,7 +36,15 @@ sudo apt-get install golang-1.8
 sudo ln /usr/lib/go-1.8/bin/go /usr/bin/go1.8
 ```
 
-#### step 6: Install qemu
+#### step 6: Install libglib, libpixman
+
+```
+sudo apt-get install libglib2.0-dev
+
+sudo apt-get install libpixman-1-dev
+```
+
+#### step 7: Install qemu
 
 ```
 sudo wget https://download.qemu.org/qemu-5.0.0.tar.xz

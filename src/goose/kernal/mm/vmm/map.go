@@ -1,9 +1,9 @@
 package vmm
 
 import (
-	"gopheros/kernel"
-	"gopheros/kernel/cpu"
-	"gopheros/kernel/mm"
+	"goose/kernel"
+	"goose/kernel/cpu"
+	"goose/kernel/mm"
 	"unsafe"
 )
 

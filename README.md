@@ -25,7 +25,7 @@ sudo apt-get install -y nasm`
 
 #### step 5: Install GOLang
 
-`
+```
 sudo apt-get remove golang --purge
 
 sudo add-apt-repository ppa:gophers/archive
@@ -34,7 +34,7 @@ sudo apt-get update
 sudo apt-get install golang-1.8
 
 sudo ln /usr/lib/go-1.8/bin/go /usr/bin/go1.8
-`
+```
 
 #### step 6: Install qemu
 

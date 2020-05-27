@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.box = "minimal/trusty64"
 
-  config.vm.synced_folder "./", "/home/vagrant/workspace/src/github.com/achilleasa/gopher-os"
+  config.vm.synced_folder "./", "/home/vagrant/workspace/src/github.com/sriharikapu/goose-e"
 
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update

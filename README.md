@@ -48,7 +48,6 @@ sudo cd qemu-5.0.0
 sudo ./configure
 
 sudo make
-
 ```
 
 ### Buld the project

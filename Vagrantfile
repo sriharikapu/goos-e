@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.define "gopheros-build" do |v|
+  config.vm.define "goose-build" do |v|
   end
 
   config.vm.provider "virtualbox" do |vb|

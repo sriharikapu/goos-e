@@ -40,9 +40,13 @@ sudo ln /usr/lib/go-1.8/bin/go /usr/bin/go1.8
 
 `
 sudo wget https://download.qemu.org/qemu-5.0.0.tar.xz
+
 sudo tar xvJf qemu-5.0.0.tar.xz
+
 sudo cd qemu-5.0.0
+
 sudo ./configure
+
 sudo make
 `
 
